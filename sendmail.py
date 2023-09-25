@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 
 def send_noti_email(content:str):
     #The mail addresses and password
-    sender_address = "fusionnotifier@gmail.com"
-    sender_pass = "fcfsnbmwyfswlhks"
+    sender_address = 
+    sender_pass = 
     #Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
